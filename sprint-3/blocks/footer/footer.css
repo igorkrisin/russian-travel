@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100vw - 96px);
+  padding-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: calc(100vw - 32px);
+  }
+}
+
+

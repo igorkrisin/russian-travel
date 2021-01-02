@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  max-width: 1184px;
+  min-width: 320px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  color: #FFFFFF;
+ }

@@ -1,0 +1,21 @@
+.place {
+    max-width: 984px;
+    margin: auto;
+}
+
+
+
+  @media screen and (max-width: 580px) {
+    .place {
+      max-width: calc(320px + (322 - 322) * ((100vw - 580px) / (580 - 322)));
+
+    }
+    }
+
+    @media screen and (max-width: 320px) {
+      .place {
+          max-width: calc(100% - 32px);
+          gap: 25px;
+          margin: auto;
+      }
+      }
