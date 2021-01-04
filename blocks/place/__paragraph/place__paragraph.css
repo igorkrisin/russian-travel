@@ -5,6 +5,13 @@ align-content: baseline;
 min-width: calc(100vw - 796px);
 }
 
+@media screen and (min-width: 1281px) {
+    .place__paragraph {
+        min-width: 484px;
+    }
+      }
+
+
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         min-width: calc(100vw - 568px);

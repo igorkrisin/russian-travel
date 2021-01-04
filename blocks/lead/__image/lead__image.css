@@ -1,4 +1,4 @@
-.lead-image {
+.lead__image {
   max-width: 984px;
   max-height: 615px;
   position: relative;
@@ -7,7 +7,7 @@
 
 
 @media screen and (max-width: 1024px) {
-  .lead-image {
+  .lead__image {
     max-width: 928px;
     max-height: 580px;
     }
@@ -15,7 +15,7 @@
 
 
 @media screen and (max-width: 320px) {
-  .lead-image {
+  .lead__image {
     max-width: 320px;
     max-height: 200px;
     }

@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 48px;
+    min-height: 248px;
   }
 }
 
