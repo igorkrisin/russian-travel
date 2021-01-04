@@ -7,6 +7,12 @@
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 1281px) {
+  .footer {
+    max-width: 1184px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     width: calc(100vw - 48px);
@@ -18,5 +24,7 @@
     width: calc(100vw - 32px);
   }
 }
+
+
 
 
