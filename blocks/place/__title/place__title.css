@@ -1,6 +1,7 @@
 .place__title {
    margin: 0;
-   font-family: 'Inter-Black';
+   font-family: 'Inter';
+   font-weight: 900;
    font-size: 72px;
    line-height: 1.055;
    
@@ -10,6 +11,8 @@
     .place__title {
         font-size: 42px;
         line-height: 1.095;
+        min-width: calc(100vw - 428px);
+        min-height: 92px;
        }
     }
 
@@ -17,6 +20,7 @@
         .place__title {
             font-size: 32px;
             line-height: 1.093;
+            min-height: 0;
            }
         }
     

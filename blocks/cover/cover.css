@@ -3,36 +3,50 @@
   flex-direction: column;
   align-items: center;
   background: url(../../images/__background.png), no-repeat;
+  background-position: center;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   justify-content: center;
   margin: 92px 0;
   background-size: cover;
   position: relative;
 }
 
+.cover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+
+
 @media screen and (max-width: 1024px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
+    min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
     margin: 64px 0 62px 0;
 
   }

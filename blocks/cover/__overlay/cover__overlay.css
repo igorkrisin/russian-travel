@@ -1,4 +1,4 @@
-.cover-overlay {
+.cover__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -8,6 +8,6 @@
   opacity: 0.3;
 }
 
-.cover-overlay:hover {
+.cover__overlay:hover {
   opacity: 0.8;
 }
