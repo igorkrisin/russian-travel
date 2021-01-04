@@ -1,36 +1,32 @@
 .place__paragraph {
-display: grid;
-gap: 26px;
-align-content: baseline;
-min-width: calc(100vw - 796px);
+    display: grid;
+    gap: 26px;
+    align-content: baseline;
+    min-width: calc(100vw - 796px);
 }
 
 @media screen and (min-width: 1281px) {
     .place__paragraph {
         min-width: 484px;
     }
-      }
-
+}
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         min-width: calc(100vw - 568px);
     }
-      }
-  
-
+}
 
 @media screen and (max-width: 768px) {
-  .place__paragraph {
+    .place__paragraph {
         gap: 25px;
         min-width: calc(100vw - 416px);
-
     }
 }
 
 @media screen and (max-width: 320px) {
-.place__paragraph {
-    gap: 25px;
-    margin-right: 16px;
+    .place__paragraph {
+        gap: 25px;
+        margin-right: 16px;
     }
 }

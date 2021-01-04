@@ -1,12 +1,11 @@
 .header__links {
-  display: flex;
-  margin: 0;
-  padding: 0 0 6px 0;
+    display: flex;
+    margin: 0;
+    padding: 0 0 6px 0;
 }
 
 @media screen and (max-width: 320px) {
-  .header__links {
-    padding: 0 0 8px 0;
-  }
+    .header__links {
+        padding: 0 0 8px 0;
+    }
 }
-

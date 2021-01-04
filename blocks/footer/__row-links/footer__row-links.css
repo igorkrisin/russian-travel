@@ -1,17 +1,16 @@
 .footer__row-links {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 320px) {
-  .footer__row-links {
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 48px;
-    min-height: 248px;
-  }
+    .footer__row-links {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 48px;
+        min-height: 248px;
+    }
 }
-

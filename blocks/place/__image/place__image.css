@@ -10,24 +10,24 @@
         max-width: 440px;
         max-height: 440px;
     }
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
         max-height: 340px;
     }
-  }
-  @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     .place__image {
         max-width: calc(320px + (340 - 320) * ((100vw - 320px) / (767 - 320)));
     }
-  }
+}
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .place__image {
         width: 100vw;
         margin-left: -16px;
     }
-  }
-
+}

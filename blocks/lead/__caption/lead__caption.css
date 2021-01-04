@@ -1,38 +1,36 @@
 .lead__caption {
-  font-family: 'Inter';
-  font-weight: 400;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  margin: 0;
-  padding-top: 8px;
-  min-width: 984px;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: 0.15em;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 8px;
+    min-width: 984px;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead__caption {
-    min-width: calc(100vw - 96px);
-  }
+    .lead__caption {
+        min-width: calc(100vw - 96px);
+    }
 }
 
 @media screen and (max-width: 1023px) {
-  .lead__caption {
-    min-width: calc(720px + (928 - 720) * ((100vw - 769px) / (1023 - 769)));
-  }
+    .lead__caption {
+        min-width: calc(720px + (928 - 720) * ((100vw - 769px) / (1023 - 769)));
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__caption {
-    min-width: calc(288px + (720 - 288) * ((100vw - 321px) / (767 - 321)));
-
-  }
+    .lead__caption {
+        min-width: calc(288px + (720 - 288) * ((100vw - 321px) / (767 - 321)));
+    }
 }
 
-
 @media screen and (max-width: 320px) {
-  .lead__caption {
-    width: calc(100vw - 32px);
-  }
+    .lead__caption {
+        width: calc(100vw - 32px);
+    }
 }
