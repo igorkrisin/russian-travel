@@ -8,4 +8,5 @@
     color: #FFFFFF;
     text-decoration: none;
     z-index: 1;
+    position: absolute;
 }

@@ -1,34 +1,54 @@
-.cover {
-    background: url(../../images/__background.png), no-repeat;
-    background-position: center;
-    min-height: 740px;
-    margin: 92px 0;
-    background-size: cover;
-    position: relative;
-}
-
-@media screen and (max-width: 1024px) {
     .cover {
-        min-height: 640px;
+        background: url(../../images/__background.png), no-repeat;
+        background-position: center;
+        min-height: 740px;
+        margin: 92px 0;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        min-height: 480px;
+    
+    .cover::after {
+        background: #2A2C2F;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        min-height: 480px;
-        min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+    
+    .cover:hover {
+        background-color: #2A2C2F;
+        opacity: 0.8;
     }
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-        min-height: 200px;
-        margin: 64px 0 62px 0;
+    
+    @media screen and (max-width: 1024px) {
+        .cover {
+            min-height: 640px;
+        }
     }
-}
+    
+    @media screen and (max-width: 768px) {
+        .cover {
+            min-height: 480px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .cover {
+            min-height: 480px;
+            min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .cover {
+            min-height: 200px;
+            margin: 64px 0 62px 0;
+        }
+    }

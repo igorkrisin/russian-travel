@@ -1,25 +1,23 @@
 .lead__image-background {
-    background: url(../../../../images/__image111.png) no-repeat;
-    height: 615px;
-    background-size: contain;
     width: 100%;
     background-position: center;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image-background {
-        height: 580px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image-background {
-        height: 480px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image-background {
-        height: 200px;
+        width: 100%;
     }
 }
